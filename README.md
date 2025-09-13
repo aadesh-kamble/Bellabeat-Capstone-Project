@@ -90,6 +90,9 @@ SELECT
   (SELECT COUNT(*) FROM dailyactivity_merged_part2) AS part2_rows,
   (SELECT COUNT(*) FROM dailyactivity_merged) AS merged_rows;
 ```
+
+## 📊 Analysis
+
 The scatterplot shows a clear negative correlation between sedentary minutes and hours of sleep. This means that users who spend more time being sedentary tend to get fewer hours of sleep. The trend line also confirms this inverse relationship, suggesting that prolonged inactivity throughout the day may be linked with poor sleep duration.
 
 
